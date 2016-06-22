@@ -33,6 +33,7 @@ namespace simpjs {
   T(AssignmentBitwiseAnd, "&=", 2)\
   T(AssignmentShiftLeft, "<<=",2)\
   T(AssignmentShiftRight, ">>=",2)\
+  T(AssignmentUnsignedShiftRight, ">>>=",2)\
   T(AssignmentAddition, "+=", 2)\
   T(AssignmentSubtraction, "-=", 2)\
   T(AssignmentMultiplication, "*=", 2)\
@@ -47,6 +48,7 @@ namespace simpjs {
   T(BitwiseAnd, "&", 8)\
   T(ShiftLeft, "<<", 11)\
   T(ShiftRight, ">>", 11)\
+  T(UnsignedShiftRight, ">>", 11)\
   T(Addition, "+", 12)\
   T(Subtraction, "-", 12)\
   T(Multiplication, "*", 12)\
